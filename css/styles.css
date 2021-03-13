@@ -1,61 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
-@import "reset.css";
-@import "status-bar.css";
 
+@import "reset.css";
+@import "variables.css";
+
+@import "compoments/status-bar.css";
+
+@import "screens/login.css";
+@import "screens/friends.css";
+
+@import "compoments/nav-bar.css"; /*compon */
+@import "compoments/screen-header.css";
+@import "compoments/user-component.css";
 body {
   font-family: "Open Sans", sans-serif;
-}
-
-.welcome-header {
-  display: flex;
-  flex-direction: column;
-  margin: 90px 0px;
-  text-align: center;
-  align-items: center;
-  font-weight: 600;
-}
-.welcome-header__title {
-  font-size: 25px;
-  margin-bottom: 20px;
-}
-.welcome-header__text {
-  width: 60%;
-  opacity: 0.7;
-}
-
-#login-form {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 30px;
-}
-#login-form input:not([type="submit"]) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  transition: border-color 0.3s ease-in-out;
-}
-#login-form input {
-  border: none;
-  padding: 15px 0px;
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-#login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.2);
-}
-
-#login-form input:focus {
-  border-color: var(--yellow);
-}
-
-#login-form input[value="Log in"] {
-  background-color: var(--yellow);
-  cursor: pointer;
-  padding: 20px 0px;
-  border-radius: 5px;
-}
-
-#login-form a {
-  text-align: center;
-  text-decoration: none;
-  font-size: 13px;
-  color: inherit;
+  color: #2e363e;
 }
