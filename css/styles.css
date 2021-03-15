@@ -7,11 +7,25 @@
 
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 @import "compoments/nav-bar.css"; /*compon */
 @import "compoments/screen-header.css";
 @import "compoments/user-component.css";
+@import "compoments/badge.css";
+@import "compoments/icon-row.css";
+@import "compoments/alt-screen-header.css";
+@import "compoments/no-mobile.css";
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #2e363e;
+  height: 100vh;
+  width: 100vw;
+}
+.main-screen {
+  padding: 0px var(--horizonal-space);
 }
